@@ -1,0 +1,246 @@
+/*-- scss:defaults --*/
+
+// ── Fonts ──────────────────────────────────────────────────────────────────
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+$font-family-sans-serif:  "Inter", system-ui, sans-serif;
+$font-family-monospace:   "JetBrains Mono", monospace;
+$presentation-heading-font: "Inter Display", Arial, sans-serif;
+
+$font-size-root:          18px;
+$presentation-font-size-root: 32px;
+
+// ── Palette ────────────────────────────────────────────────────────────────
+$color-bg:          #fafaf8;
+$color-fg:          #1a1a18;
+$color-accent:      #8342cc;
+$color-accent-muted:#dbeafe;
+$color-section:     #1a1a18;     // dark section backgrounds
+$color-muted:       #6b7280;     // secondary text
+$color-border:      #e5e7eb;     // dividers
+
+// Map to Reveal variables
+$body-bg:                   $color-bg;
+$body-color:                $color-fg;
+$link-color:                $color-accent;
+$link-color-hover:          darken($color-accent, 12%);
+$selection-bg:              $color-accent-muted;
+$selection-color:           $color-fg;
+
+$presentation-heading-color: $color-fg;
+$presentation-heading-font-weight: 400;   // DM Serif looks better at regular
+
+$code-color:                darken($color-accent, 5%);
+$code-bg:                   $color-accent-muted;
+
+/*-- scss:rules --*/
+
+// ── Root custom properties (available in YAML attributes too) ──────────────
+:root {
+  --color-accent:   #{$color-accent};
+  --color-section:  #{$color-section};
+  --color-muted:    #{$color-muted};
+  --r-heading-letter-spacing: -0.02em;
+}
+
+// ── Title slide ────────────────────────────────────────────────────────────
+.reveal .title-slide,
+#title-slide {
+  text-align: left;
+  padding: 3rem 4rem;
+
+  .quarto-title-authors {
+    justify-content: left;
+  
+    .quarto-title-author {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
+
+  .title {
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    line-height: 1.1;
+    margin-bottom: 0.4em;
+    letter-spacing: -0.03em;
+  }
+
+  .subtitle {
+    font-family: $font-family-sans-serif;
+    font-weight: 300;
+    color: $color-muted;
+    letter-spacing: 0;
+    margin-bottom: 1.8rem;
+  }
+
+  .author, .date {
+    font-size: 1.2rem;
+    color: $color-muted;
+  }
+
+  // accent bar on left
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 6px;
+    background: $color-accent;
+  }
+}
+
+// ── Section title slides (background-color set in YAML) ───────────────────
+.reveal section[data-background-color] {
+  h1, h2, h3 {
+    color: #fff;
+  }
+  color: rgba(255,255,255,0.85);
+}
+
+// ── Headings ───────────────────────────────────────────────────────────────
+.reveal h1 {
+  border-bottom: 2px solid $color-accent;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.8em;
+}
+
+.reveal h2 {
+  margin-bottom: 0.7em;
+}
+
+.reveal h3 {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  color: $color-accent;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+// ── Body text ──────────────────────────────────────────────────────────────
+.reveal p, .reveal li {
+  line-height: 1.65;
+  font-weight: 300;
+}
+
+.reveal strong {
+  font-weight: 600;
+  color: $color-fg;
+}
+
+// ── Slide number & footer ──────────────────────────────────────────────────
+.reveal .slide-number {
+  font-family: $font-family-monospace;
+  font-size: 0.65rem;
+  color: $color-muted;
+  background: transparent;
+}
+
+.reveal .footer {
+  font-size: 0.6rem;
+  color: $color-muted;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+// ── Code ───────────────────────────────────────────────────────────────────
+.reveal pre {
+  border-radius: 6px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  border-left: 4px solid $color-accent;
+}
+
+.reveal code:not(pre code) {
+  font-size: 0.88em;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  background: $color-accent-muted;
+  color: darken($color-accent, 8%);
+}
+
+// ── Callouts ───────────────────────────────────────────────────────────────
+.reveal .callout {
+  border-radius: 6px;
+  font-size: 0.88em;
+  margin: 1rem 0;
+}
+
+// ── Tables ─────────────────────────────────────────────────────────────────
+.reveal table {
+  font-size: 0.78em;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+
+  thead tr {
+    background: $color-section;
+    color: #fff;
+  }
+
+  tbody tr:nth-child(even) {
+    background: lighten($color-bg, 1%);
+  }
+
+  td, th {
+    padding: 0.5em 0.8em;
+    border: 1px solid $color-border;
+    text-align: left;
+  }
+}
+
+// ── Blockquote ─────────────────────────────────────────────────────────────
+.reveal blockquote {
+  border-left: 5px solid $color-accent;
+  background: $color-accent-muted;
+  border-radius: 0 6px 6px 0;
+  padding: 0.8em 1.2em;
+  font-style: italic;
+  font-size: 1.05em;
+  color: darken($color-fg, 5%);
+  width: 92%;
+  box-shadow: none;
+}
+
+// ── Fragments ──────────────────────────────────────────────────────────────
+.reveal .fragment {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.reveal .fragment.visible {
+  opacity: 1;
+  transform: none;
+}
+
+// ── Progress bar ───────────────────────────────────────────────────────────
+.reveal .progress {
+  height: 3px;
+  color: $color-accent;
+}
+
+// ── Controls ───────────────────────────────────────────────────────────────
+.reveal .controls {
+  color: $color-accent;
+}
+
+// ── r-fit-text helper (big stat slides) ────────────────────────────────────
+.reveal .r-fit-text {
+  font-family: $presentation-heading-font;
+  color: $color-accent;
+  font-style: italic;
+}
+
+// ── Panel tabset ───────────────────────────────────────────────────────────
+.reveal .panel-tabset {
+  [role="tab"] {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $color-muted;
+    border-bottom: 2px solid transparent;
+    padding: 0.4em 0.8em;
+
+    &[aria-selected="true"] {
+      color: $color-accent;
+      border-color: $color-accent;
+    }
+  }
+}

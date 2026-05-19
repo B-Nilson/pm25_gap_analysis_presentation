@@ -1,5 +1,11 @@
 ---
-title: "Coverage Gaps in Canada’s PM2.5 Monitoring Network and Recommendations for Network Expansion"
+title: "Coverage Gaps in Canada’s PM~2.5~ Monitoring Network and Recommendations for Network Expansion"
+subtitle: "How can we improve access to smoke monitoring in Canada?"
+author: 
+  - name: "Brayden Nilson"
+    affiliations: "Applied Air Quality Scientist, ECCC (AQ Science Unit - West)"
+date: 2026-06-11
+date-format: "MMMM D, YYYY"
 ---
 
 # Background

@@ -1,7 +1,37 @@
 ---
-title: "pm25_gap_analysis_presentation"
+title: "Coverage Gaps in Canada’s PM2.5 Monitoring Network and Recommendations for Network Expansion"
 ---
 
-## Quarto
+# Background
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+## Problem Statement
+
+## Key Decisions
+
+### Coverage Distance
+
+### Who to cover?
+
+### How to fill gaps?
+
+# Input Data
+
+## Locations to Cover
+
+## Existing Network
+
+## Potential Install Locations
+
+# Existing Network Coverage
+
+# Suggested Install Locations
+
+## Suggested Communities
+
+## Resulting Network Coverage
+
+# Expected Improvements in Stages
+
+# Conclusion
+
+# References

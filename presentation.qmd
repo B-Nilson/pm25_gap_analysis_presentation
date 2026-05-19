@@ -10,34 +10,66 @@ date-format: "MMMM D, YYYY"
 
 # Background
 
-## Problem Statement
+## PM~2.5~ monitoring is costly, but access to real-time information is crucial during smoke events
 
-## Key Decisions
+<!-- costs of PM~2.5~ monitoring -->
+<!-- justification for real-time monitoring access -->
+<!-- image of FEM station -->
 
-### Coverage Distance
+## *Low-cost monitors* (PurpleAir, AQegg, etc) are a cost effective means to supplement monitoring
 
-### Who to cover?
+<!-- costs of PurpleAir -->
+<!-- existing PA network -->
+<!-- AQSU work? -->
+<!-- image of PA, or AQmap? -->
 
-### How to fill gaps?
+## It is difficult to determine individual access to monitoring data, but gaps do exist
+
+- Who needs access?
+- What maximum distance to a monitor do we want?
+- Is it possible to reasonably cover everyone?
+
+<!-- remove "but gaps do exist" or add image to justify -->
 
 # Input Data
 
-## Locations to Cover
+## Identified who needs access using community locations and gridded Census population
 
-## Existing Network
+<!-- 2016 Census used due to availability of gridded data -->
 
-## Potential Install Locations
+## Considered existing regulatory (*NAPS FEM*) and PurpleAir monitors with PM~2.5~ data
+
+ <!-- required 1+ observations during month of analysis (May 2026 here) -->
+
+## Assumed possible to install a new monitor at any community (*not always true!*)
 
 # Existing Network Coverage
 
+## Including both population and communities as coverage targets allows for equitable assessments
+
+<!-- link to gap analysis report table - maybe cache a copy so stays static? -->
+
+## The existing monitoring networks cover ~91% of Canadians, but only ~50-60% of communities
+
+<!-- link to gap analysis report table - maybe cache a copy so stays static? -->
+
 # Suggested Install Locations
 
-## Suggested Communities
+## I suggest potential communities where a monitor could be installed to cover gaps
 
-## Resulting Network Coverage
+<!-- link to gap analysis report table - maybe cache a copy so stays static? -->
+<!-- link to gap analysis report map - maybe cache a copy so stays static? -->
 
-# Expected Improvements in Stages
+## Installations would occur in stages and can be targeted to meet access goals
+
+<!-- show how this could be done in the report -->
 
 # Conclusion
 
-# References
+## This analysis provides guidance for network managers to improve access to PM~2.5~ monitoring
+
+<!-- add hey figures from above -->
+
+Questions? Want access to the report?
+
+> {{< fa envelope >}} brayden.nilson@ec.gc.ca

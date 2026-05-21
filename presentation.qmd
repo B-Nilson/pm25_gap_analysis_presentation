@@ -35,7 +35,28 @@ date-format: "MMMM D, YYYY"
 
 ## Identified who needs access using community locations and gridded Census population
 
-<!-- 2016 Census used due to availability of gridded data -->
+::::: {.columns}
+
+:::: {.column width="50%"}
+::: {.r-stack}
+
+![](images/opendata_inuit_locations.png){.fragment}
+
+![](images/opendata_fn_locations.png){.fragment}
+
+![](images/openstreetmap.png){.fragment}
+:::
+::::
+
+:::: {.column width="50%"}
+![](images/opendata_gridded_census.png){.fragment}
+
+::: {.fragment}
+*2016 Census used -- lack of 2021 gridded data*
+:::
+::::
+
+:::::
 
 ## Considered existing regulatory (*NAPS FEM*) and PurpleAir monitors with PM~2.5~ data
 

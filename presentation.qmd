@@ -99,8 +99,15 @@ date-format: "MMMM D, YYYY"
 
 ## This analysis provides guidance for network managers to improve access to PM~2.5~ monitoring
 
-<!-- add hey figures from above -->
-
-Questions? Want access to the report?
+Questions? Want access to the automated report?
 
 > {{< fa envelope >}} brayden.nilson@ec.gc.ca
+
+|
+
+Interested in performing a similar analysis? See:
+
+- gapfinder R package: <https://github.com/B-Nilson/gapfinder>
+- canadata R package: <https://github.com/B-Nilson/canadata>
+
+<!-- ask nunavut naps managers about PAs installed by env mgmt as well as epd? -->

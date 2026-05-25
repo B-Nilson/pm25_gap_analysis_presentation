@@ -12,9 +12,28 @@ date-format: "MMMM D, YYYY"
 
 ## PM~2.5~ monitoring is costly, but access to real-time information is crucial during smoke events
 
-<!-- costs of PM~2.5~ monitoring -->
-<!-- justification for real-time monitoring access -->
-<!-- image of FEM station -->
+:::: {.columns}
+
+::: {.column .fragment width="25%"}
+![](images/fem_monitoring_site_ColdLakeAB.jpg)[^1]
+::: 
+
+::: {.column .fragment width="70%"}
+![](images/Jain_etal_2024_Nature_fig8b.png)[^2]
+
+:::
+
+::::
+
+[^1]: LICA (2026). https://lica.ca/airshed/regional-air-monitoring-programs/
+
+[^2]: Jain et al. (2024). https://doi.org/10.1038/s41467-024-51154-7
+
+::: {.notes}
+- high upfront/maintenance cost
+- a single point, may miss regional variations
+- wildfire smoke is not concentrated in urban areas like many other sources
+:::
 
 ## *Low-cost monitors* (PurpleAir, AQegg, etc) are a cost effective means to supplement monitoring
 

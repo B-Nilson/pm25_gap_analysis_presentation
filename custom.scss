@@ -126,6 +126,14 @@ $code-bg:                   $color-accent-muted;
   color: $color-fg;
 }
 
+// --- Footnotes -------------------------------------------------------------
+
+// fixes footnote marker placement for figures (top right, not bottom right)
+img + sup {
+  vertical-align: top !important;
+  padding-left: 0.1rem;
+}
+
 // ── Slide number & footer ──────────────────────────────────────────────────
 .reveal .slide-number {
   font-family: $font-family-monospace;

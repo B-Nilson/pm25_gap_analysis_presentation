@@ -58,13 +58,45 @@ date-format: "MMMM D, YYYY"
 [^1]: https://www.purpleair.com/
 [^2]: Nilson et al. (2022). https://doi.org/10.5194/amt-15-3315-2022
 
-## It is difficult to determine individual access to monitoring data, but gaps do exist
+## It is difficult to determine individual access to monitoring data, but gaps do exist {auto-animate=true}
 
+:::: {.columns}
+
+::: {.column width="46%"}
+
+::: {.r-stack}
+
+![](images/coverage_example_1.png){.fragment}
+
+![](images/coverage_example_2.png){.fragment}
+
+![](images/coverage_example_3.png){.fragment}
+
+![](images/coverage_example_4.png){.fragment}
+
+:::
+
+:::
+
+::: {.column .fragment width="54%"}
+
+![](images/naps_coverage_gaps.png)[^1]
+
+:::
+
+[^1]: Nilson (2026). *Canadian PM2.5 Monitoring Gap Analysis: 2026-05-01*
+
+::::
+
+::: {.notes}
 - Who needs access?
 - What maximum distance to a monitor do we want?
 - Is it possible to reasonably cover everyone?
+:::
 
-<!-- remove "but gaps do exist" or add image to justify -->
+## {auto-animate=true}
+
+![](images/naps_coverage_gaps.png){.center}
 
 # Input Data
 

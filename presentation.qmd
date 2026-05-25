@@ -41,7 +41,7 @@ date-format: "MMMM D, YYYY"
 
 ::: {.column .fragment width="50%"}
 
-![](images/purpleair_monitor.png)[^1]
+![](images/purpleair_monitor.png)[^3]
 
 :::
 
@@ -49,14 +49,14 @@ date-format: "MMMM D, YYYY"
 
 - orders of magnitude cheaper to purchase (~$50k -> < $500)
 - able to deploy without dedicated infrastructure
-- accurate enough for detecting smoke events when bias-corrected[^2]
+- accurate enough for detecting smoke events when bias-corrected[^4]
 
 :::
 
 ::::
 
-[^1]: https://www.purpleair.com/
-[^2]: Nilson et al. (2022). https://doi.org/10.5194/amt-15-3315-2022
+[^3]: https://www.purpleair.com/
+[^4]: Nilson et al. (2022). https://doi.org/10.5194/amt-15-3315-2022
 
 ## It is difficult to determine individual access to monitoring data, but gaps do exist {auto-animate=true}
 
@@ -80,11 +80,11 @@ date-format: "MMMM D, YYYY"
 
 ::: {.column .fragment width="54%"}
 
-![](images/naps_coverage_gaps.png)[^1]
+![](images/naps_coverage_gaps.png)[^5]
 
 :::
 
-[^1]: Nilson (2026). *Canadian PM2.5 Monitoring Gap Analysis: 2026-05-01*
+[^5]: Nilson (2026). *Canadian PM2.5 Monitoring Gap Analysis: 2026-05-01*
 
 ::::
 

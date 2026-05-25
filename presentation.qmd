@@ -37,10 +37,26 @@ date-format: "MMMM D, YYYY"
 
 ## *Low-cost monitors* (PurpleAir, AQegg, etc) are a cost effective means to supplement monitoring
 
-<!-- costs of PurpleAir -->
-<!-- existing PA network -->
-<!-- AQSU work? -->
-<!-- image of PA, or AQmap? -->
+:::: {.columns}
+
+::: {.column .fragment width="50%"}
+
+![](images/purpleair_monitor.png)[^1]
+
+:::
+
+::: {.column .incremental width="50%"}
+
+- orders of magnitude cheaper to purchase (~$50k -> < $500)
+- able to deploy without dedicated infrastructure
+- accurate enough for detecting smoke events when bias-corrected[^2]
+
+:::
+
+::::
+
+[^1]: https://www.purpleair.com/
+[^2]: Nilson et al. (2022). https://doi.org/10.5194/amt-15-3315-2022
 
 ## It is difficult to determine individual access to monitoring data, but gaps do exist
 

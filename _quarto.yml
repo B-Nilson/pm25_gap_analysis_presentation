@@ -1,5 +1,6 @@
 project:
   title: "pm25_gap_analysis_presentation"
+  output-dir: docs
 
 format:
   revealjs:

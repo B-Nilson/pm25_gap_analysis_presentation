@@ -149,8 +149,6 @@ Need:
 
 :::
 
-# Existing Network Coverage
-
 ## People, places, and PM~2.5~ monitors differ across provinces and territories
 
 <!-- maybe cache a copy so stays static? -->

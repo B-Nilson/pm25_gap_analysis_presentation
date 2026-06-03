@@ -184,15 +184,51 @@ Need:
 
 ## This analysis provides guidance for network managers to improve access to PM~2.5~ monitoring
 
+:::: {.columns}
+
+::: {.column .fragment width="25%"}
+
+```{mermaid}
+flowchart
+  A(Decide Access Goals) --> B(Check Gap Analysis)
+  B <--> C(Identify Feasible Locations)
+  D(Find Willing Host) <--> C
+  B <--> D
+  C --> E("Purchase Monitor(s)")
+  E --> F("Install Monitor(s)")
+  F --> A
+```
+
+:::
+
+::: {.column width="75%"}
+
+| 
+| 
+
+:::{.fragment}
 Questions? Want access to the automated report?
+:::
 
+:::{.fragment}
 > {{< fa envelope >}} brayden.nilson@ec.gc.ca
+:::
 
-|
+| 
+| 
 
+:::{.fragment}
 Interested in performing a similar analysis? See:
+:::
 
+:::{.incremental}
 - gapfinder R package: <https://github.com/B-Nilson/gapfinder>
 - canadata R package: <https://github.com/B-Nilson/canadata>
+:::
+
+:::
+
+::::
+
 
 <!-- ask nunavut naps managers about PAs installed by env mgmt as well as epd? -->

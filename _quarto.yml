@@ -29,7 +29,7 @@ format:
     code-copy: true
 
 execute:
-  echo: true
+  echo: false
   warning: false
   message: false
   cache: true

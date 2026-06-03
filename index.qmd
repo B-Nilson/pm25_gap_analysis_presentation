@@ -25,9 +25,9 @@ date-format: "MMMM D, YYYY"
 
 ::::
 
-[^1]: LICA (2026). https://lica.ca/airshed/regional-air-monitoring-programs/
+[^1]: Cold Lake, AB monitor. LICA (2026). https://lica.ca/airshed/regional-air-monitoring-programs/
 
-[^2]: Jain et al. (2024). https://doi.org/10.1038/s41467-024-51154-7
+[^2]: 2023 Wildfires PM~2.5~ Maxima. Jain et al. (2024). https://doi.org/10.1038/s41467-024-51154-7
 
 ::: {.notes}
 - high upfront/maintenance cost

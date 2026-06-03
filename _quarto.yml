@@ -22,7 +22,7 @@ format:
     max-scale: 1.0
     
     # Footer
-    footer: "Brayden Nilson · NAPS Special Topics · 2026"
+    footer: "Brayden Nilson · Canada PM~2.5~ Gap Analysis"
     
     # Code blocks
     highlight-style: github-dark

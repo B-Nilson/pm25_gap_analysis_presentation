@@ -204,7 +204,6 @@ flowchart
 ::: {.column width="75%"}
 
 | 
-| 
 
 :::{.fragment}
 Questions? Want access to the automated report?
@@ -222,6 +221,7 @@ Interested in performing a similar analysis? See:
 :::
 
 :::{.incremental}
+- this presentation: <https://b-nilson.github.io/pm25_gap_analysis_presentation/>
 - gapfinder R package: <https://github.com/B-Nilson/gapfinder>
 - canadata R package: <https://github.com/B-Nilson/canadata>
 :::

@@ -35,6 +35,10 @@ $code-bg:                   $color-accent-muted;
 
 /*-- scss:rules --*/
 
+.uri {
+  font-size: 1.5rem;
+}
+
 // ── Root custom properties (available in YAML attributes too) ──────────────
 :root {
   --color-accent:   #{$color-accent};

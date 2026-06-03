@@ -14,11 +14,11 @@ date-format: "MMMM D, YYYY"
 
 :::: {.columns}
 
-::: {.column .fragment width="25%"}
+::: {.column .fragment width="26%"}
 ![](images/fem_monitoring_site_ColdLakeAB.jpg)[^1]
 ::: 
 
-::: {.column .fragment width="70%"}
+::: {.column .fragment width="69%"}
 ![](images/Jain_etal_2024_Nature_fig8b.png)[^2]
 
 :::

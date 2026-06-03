@@ -127,9 +127,27 @@ date-format: "MMMM D, YYYY"
 
 ## Considered existing regulatory (*NAPS FEM*) and PurpleAir monitors with PM~2.5~ data
 
+{{< iframe "https://aqmap.ca" >}}
  <!-- required 1+ observations during month of analysis (May 2026 here) -->
 
 ## Assumed possible to install a new monitor at any community (*not always true!*)
+
+:::{.fragment}
+>*Which communities could a monitor be installed in, such that someone without a monitor within 25 km would now be covered?*
+:::
+
+::: {.fragment}
+Need:
+:::
+
+::: {.incremental}
+
+(@) A host (i.e. community member, local government, schools, etc)
+(@) Wi-Fi (may not be available/reliable, in range, or allowed on some networks)
+(@) Power (ex. my home only has one exterior plug, limiting install)
+(@) Space (a monitor under a covered patio beside a BBQ is not very useful!)
+
+:::
 
 # Existing Network Coverage
 

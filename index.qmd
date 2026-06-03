@@ -151,7 +151,7 @@ Need:
 
 # Existing Network Coverage
 
-## Including both population and communities as coverage targets allows for equitable assessments
+## People, places, and PM~2.5~ monitors differ across provinces and territories
 
 <!-- maybe cache a copy so stays static? -->
 
@@ -171,7 +171,7 @@ Need:
 
 {{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/suggested_install_tables/CAN/index.html" "82%" >}}
 
-##
+## Suggested installations and existing coverage can be viewed interactively
 <!-- maybe cache a copy so stays static? -->
 
 {{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/coverage_map/index.html" "100%" >}}

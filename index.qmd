@@ -172,7 +172,7 @@ Need:
 ## Suggested installations and existing coverage can be viewed interactively
 <!-- maybe cache a copy so stays static? -->
 
-{{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/coverage_map/index.html" "100%" >}}
+{{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/coverage_map/index.html" >}}
 
 ## Installations would occur in stages and can be targeted to meet access goals
 

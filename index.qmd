@@ -14,7 +14,7 @@ date-format: "MMMM D, YYYY"
 
 :::: {.columns}
 
-::: {.column .fragment width="26%"}
+::: {.column width="26%"}
 ![](images/fem_monitoring_site_ColdLakeAB.jpg)[^1]
 ::: 
 
@@ -39,7 +39,7 @@ date-format: "MMMM D, YYYY"
 
 :::: {.columns}
 
-::: {.column .fragment width="50%"}
+::: {.column width="50%"}
 
 ![](images/purpleair_monitor.png)[^3]
 
@@ -155,7 +155,7 @@ Need:
 
 {{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/input_summary_table/index.html" >}}
 
-## The existing monitoring networks cover ~92% of Canadians, but only ~59% of communities
+## The existing monitoring networks cover ~92% of Canadians, but only ~60% of communities
 
 <!-- maybe cache a copy so stays static? or derive numbers from within table html -->
 

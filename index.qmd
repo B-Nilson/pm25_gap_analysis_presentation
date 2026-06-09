@@ -23,9 +23,9 @@ date-format: "MMMM D, YYYY"
 
 ::::
 
-[^1]: Cold Lake, AB monitor. LICA (2026). https://lica.ca/airshed/regional-air-monitoring-programs/
+[^1]: Cold Lake, AB monitor. LICA (2026). <https://lica.ca/airshed/regional-air-monitoring-programs/>
 
-[^2]: 2023 Wildfires PM~2.5~ Maxima. Jain et al. (2024). https://doi.org/10.1038/s41467-024-51154-7
+[^2]: 2023 Wildfires PM~2.5~ Maxima. Jain et al. (2024). <https://doi.org/10.1038/s41467-024-51154-7>
 
 ::: {.notes}
 - high upfront/maintenance cost
@@ -53,8 +53,8 @@ date-format: "MMMM D, YYYY"
 
 ::::
 
-[^3]: https://www.purpleair.com/
-[^4]: Nilson et al. (2022). https://doi.org/10.5194/amt-15-3315-2022
+[^3]: <https://www.purpleair.com/>
+[^4]: Nilson et al. (2022). <https://doi.org/10.5194/amt-15-3315-2022>
 
 ## It is difficult to determine individual access to monitoring data, but gaps do exist {auto-animate=true}
 

@@ -128,6 +128,20 @@ date-format: "MMMM D, YYYY"
 {{< iframe "https://aqmap.ca" >}}
  <!-- required 1+ observations during month of analysis (May 2026 here) -->
 
+## People, places, and PM~2.5~ monitors differ across provinces and territories
+
+<!-- maybe cache a copy so stays static? -->
+
+{{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/input_summary_table/index.html" >}}
+
+## The existing monitoring networks cover ~92% of Canadians, but only ~60% of communities
+
+<!-- maybe cache a copy so stays static? or derive numbers from within table html -->
+
+{{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/current_coverage_table/index.html" >}}
+
+# How can we improve access?
+
 ## Assumed possible to install a new monitor at any community (*not always true!*)
 
 :::{.fragment}
@@ -146,20 +160,6 @@ Need:
 (@) Space (a monitor under a covered patio beside a BBQ is not very useful!)
 
 :::
-
-## People, places, and PM~2.5~ monitors differ across provinces and territories
-
-<!-- maybe cache a copy so stays static? -->
-
-{{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/input_summary_table/index.html" >}}
-
-## The existing monitoring networks cover ~92% of Canadians, but only ~60% of communities
-
-<!-- maybe cache a copy so stays static? or derive numbers from within table html -->
-
-{{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/current_coverage_table/index.html" >}}
-
-# How can we improve coverage?
 
 ## I suggest potential communities where a monitor could be installed to cover gaps
 

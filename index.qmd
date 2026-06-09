@@ -8,8 +8,6 @@ date: 2026-06-11
 date-format: "MMMM D, YYYY"
 ---
 
-# Background
-
 ## PM~2.5~ monitoring is costly, but access to real-time information is crucial during smoke events
 
 :::: {.columns}
@@ -98,7 +96,7 @@ date-format: "MMMM D, YYYY"
 
 ![](images/naps_coverage_gaps.png){.center}
 
-# Input Data
+# Who already has access?
 
 ## Identified who needs access using community locations and gridded Census population
 
@@ -161,7 +159,7 @@ Need:
 
 {{< iframe "https://aqmap.ca/aqmap/reports/gap_analysis/current_coverage_table/index.html" >}}
 
-# Suggested Install Locations
+# How can we improve coverage?
 
 ## I suggest potential communities where a monitor could be installed to cover gaps
 

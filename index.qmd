@@ -123,10 +123,10 @@ date-format: "MMMM D, YYYY"
 
 :::::
 
-## Considered existing regulatory (*NAPS FEM*) and PurpleAir monitors with PM~2.5~ data
+<!-- ## Considered existing regulatory (*NAPS FEM*) and PurpleAir monitors with PM~2.5~ data
 
 {{< iframe "https://aqmap.ca" >}}
- <!-- required 1+ observations during month of analysis (May 2026 here) -->
+TODO: uncomment when AQmap back online -->
 
 ## People, places, and PM~2.5~ monitors differ across provinces and territories
 
